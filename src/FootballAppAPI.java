@@ -12,11 +12,7 @@ import java.util.Random;
 
 
 public class FootballAppAPI {
-	
-	/**
-	 * @param locationName
-	 * @return
-	 */
+
 	  public static JSONObject[] getFootballData(String locationName){
 
 	        String urlString = "https://api.football-data.org/v4/competitions?X-Auth=19b83e13ed1948a78d465a504ceeac26";
